@@ -67,34 +67,53 @@ footer {
 
 
 
+
 @media screen and (max-width:768px) {
   header {
-    width: 100%;
     height: 50px;
   }
-  }
+}
 
-  main {
-    width: 100%;
-    margin: 50px auto;
-    display: inline-block;
-  }
+main {
+  width: 100%;
+  margin: 50px 0;
+  display: inline-block;
+}
 
-  .step-box {
-    width: 90%;
-  }
+.step-box {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
 
-  .step-box:nth-child(2) {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.step-box:nth-child(2) {
+  margin: 20px auto;
+}
 
-  .step-img1 {
-    background-size: cover;
-    background-position: bottom;
-  }
+.step-box:last-child {
+  margin-right: auto;
+}
 
-  footer {
-    width: 100%;
-    height: 50px;
-  }
+.step-img1 {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.step-img2 {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.step-img3 {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+footer {
+  height: 50px;
+}
