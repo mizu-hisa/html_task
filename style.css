@@ -97,19 +97,19 @@ main {
 .step-img1 {
   height: 150px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step-img2 {
   height: 150px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step-img3 {
   height: 150px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 
